@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div#header {
+    border: 0px;
+    background-color: #278d49;
+    color: #ffffff;
+    margin-bottom: 40px;
+    padding: 5px;
+
+}
+
+span#title {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+div#card {
+    border-radius: 25px;
+    border: 1px solid #393a38ed;
+    background-color: #ffffff;
+    padding: 20px;
+    width: 380px;
+    height: 250px;
+    margin: auto;
+}
+
+div#content {
+    width: 100%;
+    height: 200px;
+    font-size: 150px;
+    text-align: center;
+}
+
+div#results {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    background-color: #278d49;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+div#container-counter-correct {
+    padding: 5px;
+    display: inline;
+    background-color: #0ec54b;
+
+}
+
+div#container-counter-wrong {
+    padding: 5px;
+    display: inline;
+    background-color: #e63434;
+}
+
+input {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    float: right;
+
+}
+
+input#button-show-answer {
+    background-color: #9fa2a0;
+}
+
+input#button-show-answer {
+    background-color: #9fa2a0;
+}
+
+input#button-correct-answer {
+    background-color: #0ec54b;
+}
+
+input#button-wrong-answer {
+    background-color: #e63434;
+    float: left;
+}
