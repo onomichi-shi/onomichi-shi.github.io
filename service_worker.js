@@ -62,7 +62,7 @@ self.addEventListener("fetch", (event) => {
         // caches.match() always resolves
         // but in case of success response will have value
         if (response !== undefined) {
-          console.log(`Service Worker: ${event.request} aus Cache gelesen.`)
+          console.log(`Service Worker: ${response.url} aus Cache gelesen.`)
           return response;
         } else {
           return fetch(event.request)
