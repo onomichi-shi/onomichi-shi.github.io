@@ -14,6 +14,7 @@ const cacheName = 'v1';
 
 // Dateien die in den Cache sollen
 const cacheAssets = [
+    '/',
     'index.html',
     '/css/style.css',
     '/js/app.js'
